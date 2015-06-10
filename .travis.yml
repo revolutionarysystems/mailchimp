@@ -2,7 +2,7 @@ language: java
 before_install: git clone http://github.com/revolutionarysystems/travis.git target/travis
 script: mvn deploy --settings target/travis/settings.xml
 env:
-  secure: UjYqNesGrEEEzFQmMS43NfyAanqrtWc99bkOqk9sWVCsLoBFGCsNt/Klhb0eM+HTEYcLpCmaeiSPJF6XBh9xyseyi6KzpPfoX19vAFUWSaODDg6D0rRVY/V2cQnuAX/AJLE93iQ9c6YsVwXpxUP6Xy2aI88iQNmbVVyBY9wJiMk=
+  secure: ebf+XB/tkjsjtRIzS/wAaDkeE0CHEEQtzwKPN1wzk8qpAauYQqHPnzTW4BLpgdzMv3eoFF0lJ0S/ikbfdzASP0EGlz0LD8eedV0vMq+4z53mIU7V2SAUZOqAT2gSiSuF2b06pk2Sy8XgurNQmCbZui7nV1qz24fAhIBjlsyKh3QmNAO6VftmhvAfyMXTWcfxw6py9BGDrMSgiZCk4Jyh5EsNjZLGckiLC3zjHqLXOwuNkyr1uPUMixtnTJ7fwoG9UnMEYRcAbsd/SyRXSwRY/j3rpwmqF6PV3AUwr9Co5QnSbnq9BcXn/lZzp7kNXvF0QzofkAHiKrOw1vXXl+8CesrefF8i/T1NudAxVVrEcOzMLi7/PBAXjzrTe/NMfsze4eLQuMPj4Uc2QChX88n0SG7i5p8ncKa9WnAipjcasUWSwY4TZOimQF+ySke87D5XPOeQ/PD4/23TrP8j9xrPMUsXdJXZCVe/7VP7PQSUINaCz5qVKGrtzZQE5v6aakIJrNVCOG24lccmm55nCZFF0imsv9JBGrlQ6NmxbbIw0R46ZYXIsIFtIlm40hUBS0QRBdChvS6Rem4bwUAqsGHiZhIdvHxFhslHIN5KG4drDrSuZ+5smbZJa9CsaY4pTlpJdaL15BW4TyIeevKDr6e+2+tGe3i3vOGRr0voL7TiSoY=
 notifications:
   email:
   - adam@revolutionarysystems.co.uk
@@ -10,4 +10,4 @@ notifications:
   - ci@revolutionarysystems.co.uk
 branches:
   except:
-    - /^v[0-9]/
+  - /^v[0-9]/
