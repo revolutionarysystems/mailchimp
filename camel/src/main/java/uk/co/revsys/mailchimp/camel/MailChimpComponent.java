@@ -22,6 +22,7 @@ public class MailChimpComponent extends MappedProcessorComponent{
     @Override
     protected void populateMappings(Map<String, Class<? extends Processor>> mappings) {
         mappings.put("subscribe", SubscribeProcessor.class);
+        mappings.put("updateMember", UpdateMemberProcessor.class);
     }
 
     @Override

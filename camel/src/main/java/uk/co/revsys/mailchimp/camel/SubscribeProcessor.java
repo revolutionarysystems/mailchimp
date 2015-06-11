@@ -7,7 +7,6 @@ import org.apache.camel.Exchange;
 public class SubscribeProcessor extends MailChimpProcessor {
 
     private String list;
-    private String email;
     private boolean doubleOptIn = false;
 
     public String getList() {
@@ -16,14 +15,6 @@ public class SubscribeProcessor extends MailChimpProcessor {
 
     public void setList(String list) {
         this.list = list;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
     }
 
     public boolean getDoubleOptIn() {
